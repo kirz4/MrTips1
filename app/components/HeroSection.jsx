@@ -30,7 +30,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-slate-300 text-base sm:text-lg lg:text-xl mb-6">
-            "Soprador de vidro que irÃ¡ revolucionar sua sesh!"
+            "Soprador de vidro que vai revolucionar sua sesh!"
           </p>
           <div className="align-items flex justify-start container">
             <button className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-lime-400 via-text-green-500 to-amber-600 hover:bg-slate-20 w-full sm:w-fit text-white flex justify-center items-center">
