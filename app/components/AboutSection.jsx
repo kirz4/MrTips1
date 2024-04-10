@@ -10,10 +10,10 @@ function App() {
       url: "https://i.imgur.com/zD2iHMF.png",
     },
     {
-      url: "https://i.imgur.com/NW7TYwH.png",
+      url: "https://i.imgur.com/B3xr6Lj.jpeg",
     },
     {
-      url: "https://i.imgur.com/9Xvdsux.png",
+      url: "https://i.imgur.com/6KJGO5O.jpeg",
     },
 
     {
