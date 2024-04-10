@@ -1,12 +1,13 @@
 "use client";
 import React, { useState, useRef } from "react";
 
-
 const ProjectsSection = () => {
+  const [tag, setTag] = useState("Todos");
+  const ref = useRef(null);
   return (
     <>
       <section
-        id="Projects"
+        id="projects"
         class="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5"
       >
         {/* Produto 1 inicio :) */}
