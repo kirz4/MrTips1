@@ -26,10 +26,10 @@ const HeroSection = () => {
             "Soprador de vidro que vai revolucionar sua sesh!"
           </p>
           <div className="align-items flex justify-start container">
-            <button className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-lime-400 via-text-green-500 to-amber-600 hover:bg-slate-20 w-full sm:w-fit text-white flex justify-center items-center">
+            <button className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-lime-400 via-text-green-500 to-amber-600 hover:bg-slate-20 w-full sm:w-fit text-white flex justify-center items-center text-[30px]">
               <FaWhatsapp />
             </button>
-            <button className="px-1 py-1 rounded-full bg-gradient-to-br from-lime-400 via-text-green-500 to-amber-600 hover:bg-slate-700 text-white w-full sm:w-fit mr-4 flex justify-center items-center">
+            <button className="px-1 py-1 rounded-full bg-gradient-to-br from-lime-400 via-text-green-500 to-amber-600 hover:bg-slate-700 text-white w-full sm:w-fit mr-4 flex justify-center items-center text-[30px]">
               <span className="block bg-[#854b25] hover:bg-[#b1734a] rounded-full px-16 py-3 xl:px-5 md:px-5 lg:px-5">
                 <FaInstagram />
               </span>
