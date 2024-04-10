@@ -1,109 +1,71 @@
 "use client";
-import React, { useTransition, useState } from "react";
-import Image from "next/image";
-import TabButton from "./TabButton";
 
-const TAB_DATA = [
-  {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Next.js</li>
-        <li>Python</li>
-        <li>MongoDB</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Java</li>
-        <li>C</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Education",
-    id: "education",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Podion</li>
-        <li>Leonardo da vinci</li>
-        <li>Unb (Ciência da Computação)</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Alura</li>
-        <li>JavaScript Mastery Next.js Course</li>
-        <li>Curso FelipeDeschamp</li>
-        <li>Bro Code</li>
-      </ul>
-    ),
-  },
-];
+import React, { useState } from "react";
+import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
+import { RxDotFilled } from "react-icons/rx";
 
-const AboutSection = () => {
-  const [tab, setTab] = useState("skills");
-  const [isPending, startTransition] = useTransition();
+function App() {
+  const slides = [
+    {
+      url: "https://i.imgur.com/zD2iHMF.png",
+    },
+    {
+      url: "https://i.imgur.com/NW7TYwH.png",
+    },
+    {
+      url: "https://i.imgur.com/9Xvdsux.png",
+    },
 
-  const handleTabChange = (id) => {
-    startTransition(() => {
-      setTab(id);
-    });
+    {
+      url: "https://i.imgur.com/xRprRVu.jpeg",
+    },
+  ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const prevSlide = () => {
+    const isFirstSlide = currentIndex === 0;
+    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const nextSlide = () => {
+    const isLastSlide = currentIndex === slides.length - 1;
+    const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const goToSlide = (slideIndex) => {
+    setCurrentIndex(slideIndex);
   };
 
   return (
-    <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image
-          alt="imagem do sobre"
-          className="rounded-[50px]"
-          src="/images/about-image.jpg"
-          width={500}
-          height={500}
-        />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">Minha História</h2>
-          <p className="text-base lg:text-lg">
-            Sou apaixonado por aprendizado, especialmente em computação, com
-            foco em Fullstack. Pratico musculação, o que me traz disciplina e
-            saúde. Tenho habilidades em comunicação, paciência e clareza ao
-            explicar conceitos, sendo útil para colegas e projetos de equipe.
-            Sempre buscando aprender e crescer em todas as áreas da minha vida.
-          </p>
-          <div className="flex flex-row justify-start mt-8 text-xl">
-            <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
-            >
-              {" "}
-              Habilidades{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
-            >
-              {" "}
-              Educação{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {" "}
-              Certificados{" "}
-            </TabButton>
-          </div>
-          <div className="mt-8">
-            {TAB_DATA.find((t) => t.id === tab).content}
-          </div>
-        </div>
+    <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group">
+      <div
+        style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+        className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
+      ></div>
+      {/* Left Arrow */}
+      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+        <BsChevronCompactLeft onClick={prevSlide} size={30} />
       </div>
-    </section>
+      {/* Right Arrow */}
+      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+        <BsChevronCompactRight onClick={nextSlide} size={30} />
+      </div>
+      <div className="flex top-4 justify-center py-2">
+        {slides.map((slide, slideIndex) => (
+          <div
+            key={slideIndex}
+            onClick={() => goToSlide(slideIndex)}
+            className="text-2xl cursor-pointer"
+          >
+            <RxDotFilled />
+          </div>
+        ))}
+      </div>
+    </div>
   );
-};
+}
 
-export default AboutSection;
+export default App;
