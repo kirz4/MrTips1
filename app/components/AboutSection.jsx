@@ -5,8 +5,6 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 
 const Coleções = () => {
-  const [tag, setTag] = useState("Todos");
-  const ref = useRef(null);
   return (
     <section id="colecoes">
       <div class="py-6 sm:py-8 lg:py-12">
