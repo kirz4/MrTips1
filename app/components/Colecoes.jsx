@@ -21,7 +21,7 @@ const Coleções = () => {
               class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
             >
               <img
-                src="https://i.imgur.com/u7B8sRi.jpeg"
+                src="https://i.imgur.com/IiwhNN3.jpeg"
                 loading="lazy"
                 alt="Mr.Tips"
                 class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -39,7 +39,7 @@ const Coleções = () => {
               class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
             >
               <img
-                src="https://i.imgur.com/WXuJE6q.jpeg"
+                src="https://i.imgur.com/pcGmVnv.jpeg"
                 loading="lazy"
                 alt="Mr.Tips2"
                 class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -57,7 +57,7 @@ const Coleções = () => {
               class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
             >
               <img
-                src="https://i.imgur.com/b7eUkUB.png"
+                src="https://i.imgur.com/HniLAbW.jpeg"
                 loading="lazy"
                 alt="Mr.Tips3"
                 class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -75,7 +75,7 @@ const Coleções = () => {
               class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
             >
               <img
-                src="https://i.imgur.com/spM9Vwf.jpeg"
+                src="https://i.imgur.com/HkluYHa.jpeg"
                 loading="lazy"
                 alt="Mr.Tips4"
                 class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
