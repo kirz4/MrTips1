@@ -19,7 +19,10 @@ const AboutUs = () => {
             Um pouco da nossa História
           </span>
           <h2 class="my-4 font-bold text-3xl  sm:text-4xl ">
-            Sobre <span class="text-[#a6d232]">a Mr. Tips</span>
+            Sobre{" "}
+            <span class="text-[#a6d232] drop-shadow-[0_1.8px_1.8px_rgba(139,69,19,1)]">
+              a Mr. Tips
+            </span>
           </h2>
           <p class="text-gray-200">
             A Mr. Tips nasceu da paixão por piteiras de vidro. Desde então, nos
