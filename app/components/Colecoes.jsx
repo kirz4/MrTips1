@@ -11,7 +11,7 @@ const Coleções = () => {
         <h1 className=" flex justify-center items-center text-5xl font-bold text-white">
           Coleções
         </h1>
-        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8 sm:pt-10">
           <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12" />
 
           <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
