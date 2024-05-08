@@ -31,7 +31,7 @@ const HeroSection = () => {
             </button>
             <a href="https://www.instagram.com/mrtipsbr/">
               <button className="px-1 py-1 rounded-full bg-gradient-to-br from-lime-400 via-text-green-500 to-amber-600 hover:bg-slate-700 text-white w-full sm:w-fit mr-4 justify-center items-center text-[30px]">
-                <span className=" bg-[#854b25] hover:bg-[#b1734a] rounded-full px-13 py-3 xl:px-5 md:px-5 lg:px-5 flex block justify-center items-center">
+                <span className=" bg-[#854b25] hover:bg-[#b1734a] rounded-full px-[50px] py-3 xl:px-5 md:px-5 lg:px-5 flex block justify-center items-center">
                   <FaInstagram />
                 </span>
               </button>
