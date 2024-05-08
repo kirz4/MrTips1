@@ -63,6 +63,16 @@ const slideImages6 = [
     caption: "08.1 - Waves Snake varias",
   },
 ];
+const slideImages7 = [
+  {
+    url: "https://i.imgur.com/cO6bVCh.jpeg",
+    caption: "09 - Zanfirico Snake Reto",
+  },
+  {
+    url: "https://i.imgur.com/lItHlUi.jpeg",
+    caption: "09.1 - Zanfirico Snake Varias",
+  },
+];
 
 const divStyle = {
   backgroundSize: "cover",
@@ -99,24 +109,22 @@ const ProjectsSection = () => {
               Mr.Tips
             </span>
             <p class="text-lg font-bold text-[#572d15] truncate block capitalize">
-              Piteira bob esponja
+              Piteira Black Arts
             </p>
             <ul>
               <li className="text-[#572d15] font-bold text-[1px] invisible group-hover:visible group-hover:text-xs duration-300">
-                Tecnica: Sopro
+                Técnicas: Wig-Wag(reverse),&nbsp; Implosion
                 <br />
-                Material: Vidro <br />
-                Milimetro: 3mm <br />
-                Tamanho: 2cm <br />
-                Cor: Amarelo <br />
+                Corpo preto <br />
+                Espessura: 6 mm <br />
               </li>
             </ul>
             <div class="flex items-center">
               <p class="text-lg font-semibold text-[#572d15] cursor-auto my-3">
-                R$149
+                R$100
               </p>
               <del className="text-[#572d15]">
-                <p class="text-sm text-[#572d15] cursor-auto ml-2">R$199</p>
+                <p class="text-sm text-[#572d15] cursor-auto ml-2">R$120</p>
               </del>
             </div>
           </div>
@@ -142,24 +150,22 @@ const ProjectsSection = () => {
               Mr.Tips
             </span>
             <p class="text-lg font-bold text-[#572d15] truncate block capitalize">
-              Piteira bob esponja
+              Piteira Green Arts
             </p>
             <ul>
               <li className="text-[#572d15] font-bold text-[1px] invisible group-hover:visible group-hover:text-xs duration-300">
-                Tecnica: Sopro
+                Técnica: Variações Artísticas
                 <br />
-                Material: Vidro <br />
-                Milimetro: 3mm <br />
-                Tamanho: 2cm <br />
-                Cor: Amarelo <br />
+                Corpo verde translúcido <br />
+                Espessura: 5,5 mm <br />
               </li>
             </ul>
             <div class="flex items-center">
               <p class="text-lg font-semibold text-[#572d15] cursor-auto my-3">
-                R$149
+                R$90
               </p>
               <del className="text-[#572d15]">
-                <p class="text-sm text-[#572d15] cursor-auto ml-2">R$199</p>
+                <p class="text-sm text-[#572d15] cursor-auto ml-2">R$110</p>
               </del>
             </div>
           </div>
@@ -185,24 +191,23 @@ const ProjectsSection = () => {
               Mr.Tips
             </span>
             <p class="text-lg font-bold text-[#572d15] truncate block capitalize">
-              Piteira bob esponja
+              Piteira Donuts Wig-Wag
             </p>
             <ul>
               <li className="text-[#572d15] font-bold text-[1px] invisible group-hover:visible group-hover:text-xs duration-300">
-                Tecnica: Sopro
+                Técnica: Wig-Wag,&nbsp; Reverse-Wag
                 <br />
-                Material: Vidro <br />
-                Milimetro: 3mm <br />
-                Tamanho: 2cm <br />
-                Cor: Amarelo <br />
+                Corpo personalizado: &nbsp;Donuts
+                <br />
+                Espessuras e tamanhos variados <br />
               </li>
             </ul>
             <div class="flex items-center">
               <p class="text-lg font-semibold text-[#572d15] cursor-auto my-3">
-                R$149
+                R$80
               </p>
               <del className="text-[#572d15]">
-                <p class="text-sm text-[#572d15] cursor-auto ml-2">R$199</p>
+                <p class="text-sm text-[#572d15] cursor-auto ml-2">R$100</p>
               </del>
             </div>
           </div>
@@ -228,24 +233,22 @@ const ProjectsSection = () => {
               Mr.Tips
             </span>
             <p class="text-lg font-bold text-[#572d15] truncate block capitalize">
-              Piteira bob esponja
+              Piteira Implosion Style
             </p>
             <ul>
               <li className="text-[#572d15] font-bold text-[1px] invisible group-hover:visible group-hover:text-xs duration-300">
-                Tecnica: Sopro
+                Técnica: Implosion
                 <br />
-                Material: Vidro <br />
-                Milimetro: 3mm <br />
-                Tamanho: 2cm <br />
-                Cor: Amarelo <br />
+                Corpo personalizado <br />
+                Espessuras e tamanhos variados <br />
               </li>
             </ul>
             <div class="flex items-center">
               <p class="text-lg font-semibold text-[#572d15] cursor-auto my-3">
-                R$149
+                R$70
               </p>
               <del className="text-[#572d15]">
-                <p class="text-sm text-[#572d15] cursor-auto ml-2">R$199</p>
+                <p class="text-sm text-[#572d15] cursor-auto ml-2">R$90</p>
               </del>
             </div>
           </div>
@@ -271,24 +274,22 @@ const ProjectsSection = () => {
               Mr.Tips
             </span>
             <p class="text-lg font-bold text-[#572d15] truncate block capitalize">
-              Piteira bob esponja
+              Piteira Wig-Wag
             </p>
             <ul>
               <li className="text-[#572d15] font-bold text-[1px] invisible group-hover:visible group-hover:text-xs duration-300">
-                Tecnica: Sopro
+                Técnica: Wig-Wag ou Reverse-Wag
                 <br />
-                Material: Vidro <br />
-                Milimetro: 3mm <br />
-                Tamanho: 2cm <br />
-                Cor: Amarelo <br />
+                Corpo personalizado <br />
+                Espessuras e tamanhos variados <br />
               </li>
             </ul>
             <div class="flex items-center">
               <p class="text-lg font-semibold text-[#572d15] cursor-auto my-3">
-                R$149
+                R$65
               </p>
               <del className="text-[#572d15]">
-                <p class="text-sm text-[#572d15] cursor-auto ml-2">R$199</p>
+                <p class="text-sm text-[#572d15] cursor-auto ml-2">R$85</p>
               </del>
             </div>
           </div>
@@ -314,33 +315,75 @@ const ProjectsSection = () => {
               Mr.Tips
             </span>
             <p class="text-lg font-bold text-[#572d15] truncate block capitalize">
-              Piteira bob esponja
+              Piteira Waves Style
             </p>
             <ul>
               <li className="text-[#572d15] font-bold text-[1px] invisible group-hover:visible group-hover:text-xs duration-300">
-                Tecnica: Sopro
+                Técnica: Waves
                 <br />
-                Material: Vidro <br />
-                Milimetro: 3mm <br />
-                Tamanho: 2cm <br />
-                Cor: Amarelo <br />
+                Corpo personalizado <br />
+                Espessuras e tamanhos variados <br />
               </li>
             </ul>
             <div class="flex items-center">
               <p class="text-lg font-semibold text-[#572d15] cursor-auto my-3">
-                R$149
+                R$60
               </p>
               <del className="text-[#572d15]">
-                <p class="text-sm text-[#572d15] cursor-auto ml-2">R$199</p>
+                <p class="text-sm text-[#572d15] cursor-auto ml-2">R$80</p>
               </del>
             </div>
           </div>
         </div>
+        {/* Produto 7 comeco :) */}
+        <div class="group w-72 bg-[#A4D434] shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+          <Slide className="rounded-xl" autoplay={false}>
+            {slideImages7.map((slideImage, index) => (
+              <div key={index} className="h-80 w-72 object-cover rounded-t-xl">
+                <div
+                  style={{
+                    ...divStyle,
+                    backgroundImage: `url(${slideImage.url})`,
+                  }}
+                ></div>
+              </div>
+            ))}
+          </Slide>
+          <div class="px-4 py-3 w-72">
+            <span class="text-[#572d15b6] mr-3 uppercase text-xs font-bold">
+              Mr.Tips
+            </span>
+            <p class="text-lg font-bold text-[#572d15] truncate block capitalize">
+              Piteira Zanfírico Style
+            </p>
+            <ul>
+              <li className="text-[#572d15] font-bold text-[1px] invisible group-hover:visible group-hover:text-xs duration-300">
+                Técnica: Zanfírico
+                <br />
+                Corpo personalizado
+                <br />
+                Espessuras e tamanhos variados <br />
+              </li>
+            </ul>
+            <div class="flex items-center">
+              <p class="text-lg font-semibold text-[#572d15] cursor-auto my-3">
+                R$50
+              </p>
+              <del className="text-[#572d15]">
+                <p class="text-sm text-[#572d15] cursor-auto ml-2">R$70</p>
+              </del>
+            </div>
+          </div>
+        </div>
+        {/* Produto 7 final :) */}
+
+        {/* Produto 8 inicio :) */}
+
         <div class="group w-72 bg-[#A4D434] shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
           <a href="#">
             <img
-              src="https://i.imgur.com/CZOGhWx.jpeg"
-              alt="Product"
+              src="https://i.imgur.com/ptuxUj6.jpeg"
+              alt="Chopp Preto Reto"
               class="h-80 w-72 object-cover rounded-t-xl"
             />
             <div class="px-4 py-3 w-72">
@@ -348,37 +391,36 @@ const ProjectsSection = () => {
                 Mr.Tips
               </span>
               <p class="text-lg font-bold text-[#572d15] truncate block capitalize">
-                Piteira bob esponja
+                Piteira Chopp
               </p>
               <ul>
                 <li className="text-[#572d15] font-bold text-[1px] invisible group-hover:visible group-hover:text-xs duration-300">
-                  Tecnica: Sopro
+                  Técnica: Sculpture – Escultura
                   <br />
-                  Material: Vidro <br />
-                  Milimetro: 3mm <br />
-                  Tamanho: 2cm <br />
-                  Cor: Amarelo <br />
+                  Corpo preto e verde translúcido <br />
+                  Cores: Canary e Star White <br />
+                  Espessura: 5,5 mm
                 </li>
               </ul>
               <div class="flex items-center">
                 <p class="text-lg font-semibold text-[#572d15] cursor-auto my-3">
-                  R$149
+                  R$120
                 </p>
                 <del className="text-[#572d15]">
-                  <p class="text-sm text-[#572d15] cursor-auto ml-2">R$199</p>
+                  <p class="text-sm text-[#572d15] cursor-auto ml-2">R$140</p>
                 </del>
               </div>
             </div>
           </a>
         </div>
-        {/* Produto 3 final :) */}
+        {/* Produto 8 final :) */}
 
-        {/* Produto 4 inicio :) */}
+        {/* Produto 9 inicio :) */}
         <div class="group w-72 bg-[#A4D434] shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
           <a href="#">
             <img
-              src="https://i.imgur.com/S2dSGJs.png"
-              alt="Product"
+              src="https://i.imgur.com/duhamZq.jpeg"
+              alt="Pretas Waves retas"
               class="h-80 w-72 object-cover rounded-t-xl"
             />
             <div class="px-4 py-3 w-72">
@@ -386,62 +428,22 @@ const ProjectsSection = () => {
                 Mr.Tips
               </span>
               <p class="text-lg font-bold text-[#572d15] truncate block capitalize">
-                Piteira bob esponja
+                Piteira Black Waves
               </p>
               <ul>
                 <li className="text-[#572d15] font-bold text-[1px] invisible group-hover:visible group-hover:text-xs duration-300">
-                  Tecnica: Sopro
+                  Técnica: Waves
                   <br />
-                  Material: Vidro <br />
-                  Milimetro: 3mm <br />
-                  Tamanho: 2cm <br />
-                  Cor: Amarelo <br />
+                  Corpo preto <br />
+                  Espessura: 6 mm <br />
                 </li>
               </ul>
               <div class="flex items-center">
                 <p class="text-lg font-semibold text-[#572d15] cursor-auto my-3">
-                  R$149
+                  R$90
                 </p>
                 <del className="text-[#572d15]">
-                  <p class="text-sm text-[#572d15] cursor-auto ml-2">R$199</p>
-                </del>
-              </div>
-            </div>
-          </a>
-        </div>
-        {/* Produto 4 final :) */}
-
-        {/* Produto 5 inicio :) */}
-        <div class="group w-72 bg-[#A4D434] shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
-          <a href="#">
-            <img
-              src="https://i.imgur.com/S2dSGJs.png"
-              alt="Product"
-              class="h-80 w-72 object-cover rounded-t-xl"
-            />
-            <div class="px-4 py-3 w-72">
-              <span class="text-[#572d15b6] mr-3 uppercase text-xs font-bold">
-                Mr.Tips
-              </span>
-              <p class="text-lg font-bold text-[#572d15] truncate block capitalize">
-                Piteira bob esponja
-              </p>
-              <ul>
-                <li className="text-[#572d15] font-bold text-[1px] invisible group-hover:visible group-hover:text-xs duration-300">
-                  Tecnica: Sopro
-                  <br />
-                  Material: Vidro <br />
-                  Milimetro: 3mm <br />
-                  Tamanho: 2cm <br />
-                  Cor: Amarelo <br />
-                </li>
-              </ul>
-              <div class="flex items-center">
-                <p class="text-lg font-semibold text-[#572d15] cursor-auto my-3">
-                  R$149
-                </p>
-                <del className="text-[#572d15]">
-                  <p class="text-sm text-[#572d15] cursor-auto ml-2">R$199</p>
+                  <p class="text-sm text-[#572d15] cursor-auto ml-2">R$110</p>
                 </del>
               </div>
             </div>
