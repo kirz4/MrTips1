@@ -40,7 +40,7 @@ const HeroSection = () => {
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0 ">
           <div className="w-[400px] 2xl:w-[700px] xl:w-[600px] lg:w-[475px] sm:w-[300px] md:w-[400px] mr-50 h-[550px]">
-            <Spline scene="https://prod.spline.design/vYtn1tG2JQTFQfst/scene.splinecode" />
+              <Spline scene="https://prod.spline.design/JmNN-kSylCqRiOZf/scene.splinecode" />
           </div>
         </div>
       </div>
