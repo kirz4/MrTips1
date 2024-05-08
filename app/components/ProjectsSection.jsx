@@ -82,7 +82,7 @@ const ProjectsSection = () => {
       >
         {/* Produto 1 inicio :) */}
         <div class="group w-72 bg-[#A4D434] shadow-xl scale-100 rounded-xl duration-500 hover:scale-105">
-          <Slide className="rounded-xl">
+          <Slide className="rounded-xl" autoplay={false}>
             {slideImages.map((slideImage, index) => (
               <div key={index} className="h-80 w-72 object-cover rounded-t-xl">
                 <div
@@ -125,7 +125,7 @@ const ProjectsSection = () => {
 
         {/* Produto 2 inicio :) */}
         <div class="group w-72 bg-[#A4D434] shadow-xl scale-100 rounded-xl duration-500 hover:scale-105">
-          <Slide className="rounded-xl">
+          <Slide className="rounded-xl" autoplay={false}>
             {slideImages2.map((slideImage, index) => (
               <div key={index} className="h-80 w-72 object-cover rounded-t-xl">
                 <div
@@ -168,7 +168,7 @@ const ProjectsSection = () => {
 
         {/* Produto 3 inicio :) */}
         <div class="group w-72 bg-[#A4D434] shadow-xl scale-100 rounded-xl duration-500 hover:scale-105">
-          <Slide className="rounded-xl">
+          <Slide className="rounded-xl" autoplay={false}>
             {slideImages3.map((slideImage, index) => (
               <div key={index} className="h-80 w-72 object-cover rounded-t-xl">
                 <div
@@ -211,7 +211,7 @@ const ProjectsSection = () => {
 
         {/* Produto 4 inicio :) */}
         <div class="group w-72 bg-[#A4D434] shadow-xl scale-100 rounded-xl duration-500 hover:scale-105">
-          <Slide className="rounded-xl">
+          <Slide className="rounded-xl" autoplay={false}>
             {slideImages4.map((slideImage, index) => (
               <div key={index} className="h-80 w-72 object-cover rounded-t-xl">
                 <div
@@ -254,7 +254,7 @@ const ProjectsSection = () => {
 
         {/* Produto 5 inicio :) */}
         <div class="group w-72 bg-[#A4D434] shadow-xl scale-100 rounded-xl duration-500 hover:scale-105">
-          <Slide className="rounded-xl">
+          <Slide className="rounded-xl" autoplay={false}>
             {slideImages5.map((slideImage, index) => (
               <div key={index} className="h-80 w-72 object-cover rounded-t-xl">
                 <div
@@ -297,7 +297,7 @@ const ProjectsSection = () => {
 
         {/* Produto 6 inicio :) */}
         <div class="group w-72 bg-[#A4D434] shadow-xl scale-100 rounded-xl duration-500 hover:scale-105">
-          <Slide className="rounded-xl">
+          <Slide className="rounded-xl" autoplay={false}>
             {slideImages6.map((slideImage, index) => (
               <div key={index} className="h-80 w-72 object-cover rounded-t-xl">
                 <div
