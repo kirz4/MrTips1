@@ -88,9 +88,6 @@ const Coleções = () => {
             {/*<!-- image - end -->*/}
           </div>
         </div>
-        <h1 className=" flex justify-center items-center text-5xl font-bold text-[#a6d232] drop-shadow-[0_1.8px_1.8px_rgba(139,69,19,1)] mt-24">
-          Estoque
-        </h1>
       </div>
     </section>
   );
