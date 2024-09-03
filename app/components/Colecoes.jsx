@@ -7,7 +7,7 @@ import { RxDotFilled } from "react-icons/rx";
 const Coleções = () => {
   return (
     <section id="colecoes">
-      <div class="py-6 sm:py-8 lg:py-12">
+      <div class="mb-40 py-6 sm:py-8 lg:py-12">
         <h1 className=" flex justify-center items-center text-5xl font-bold text-[#a6d232] drop-shadow-[0_1.8px_1.8px_rgba(139,69,19,1)] sm:mb-10">
           Coleções
         </h1>
@@ -83,7 +83,7 @@ const Coleções = () => {
 
               <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
-              <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg"></span>
+              <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg"id="aboutus"></span>
             </a>
             {/*<!-- image - end -->*/}
           </div>

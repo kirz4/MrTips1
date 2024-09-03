@@ -19,7 +19,7 @@ const HeroSection = () => {
           <video
             ref={videoRef}
             className="min-w-full min-h-full absolute object-cover"
-            src="https://i.imgur.com/18DgsKr.mp4"
+            src="https://i.imgur.com/NgqHorB.mp4"
             type="video/mp4"
             autoPlay
             muted

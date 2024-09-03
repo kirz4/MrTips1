@@ -8,7 +8,7 @@ import MenuOverlay from "./MenuOverlay";
 const navLinks = [
   {
     title: "Sobre",
-    path: "#about",
+    path: "#aboutus",
   },
   {
     title: "Coleções",
@@ -24,13 +24,13 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed mx-auto top-0 left-0 right-0 z-20 bg-[#be703f] bg-opacity-100">
-      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-0">
+    <nav className="fixed mx-auto top-0 left-0 right-0 z-20 bg-[#be703f] bg-opacity-100 ">
+      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-0 h-[90px]">
         <Link
           href={"/"}
           className="text-2xl md:text-5xl text-[#a6d232] font-semibold"
         >
-          <img alt="logo" src="/images/logo.png" className="size-24" />
+          <img alt="logo" src="/images/logo.png" className="size-16" />
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

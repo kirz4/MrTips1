@@ -15,7 +15,7 @@ export default function Home() {
         <HeroSection />
         <div className="container mx-auto px-12 py-4 mt-24 ">
           <Colecoes />
-          <AboutUs />
+          <AboutUs/>
           <ProjectsSection />
         </div>
         <Footer />
