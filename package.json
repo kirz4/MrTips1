@@ -11,17 +11,23 @@
   "dependencies": {
     "@heroicons/react": "^2.1.3",
     "@react-spring/web": "^9.7.3",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^1.0.93",
     "animate.css": "^4.1.1",
     "animate.css-react": "^1.1.0",
     "framer-motion": "^11.0.23",
-    "git": "^0.1.5",
-    "next": "14.1.4",
+    "my-portifolio": "file:",
+    "next": "^14.2.7",
     "react": "^18",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
+    "react-slick": "^0.30.2",
+    "react-slideshow-image": "^4.3.1",
     "react-type-animation": "^3.2.0",
-    "resend": "^3.2.0"
+    "resend": "^3.2.0",
+    "slick-carousel": "^1.8.1",
+    "spline": "^0.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
